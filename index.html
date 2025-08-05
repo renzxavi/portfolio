@@ -1,82 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My portfolio </title>
+  <title>Portafolio de Renzo Xavier</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- Header / Hero -->
+
   <header class="header">
     <div class="container">
       <h1 class="name">Renzo Xavier</h1>
-      <p class="tagline"> Web Designer | Designer | Programmer</p>
+      <p class="tagline">Diseñador Web | Diseñador UX/UI | Programador</p>
       <nav class="nav">
         <ul>
-          <li><a href="#about">About me</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  
   <section id="about" class="about">
     <div class="container">
-      <h2>About me</h2>
+      <h2>Sobre mí</h2>
       <p>
-        I profesional and I like technology and designer. I have experience in designer web and designer IU/UX.
+        Soy un profesional apasionado por la tecnología y el diseño. Tengo experiencia en diseño web y diseño UX/UI, creando interfaces atractivas y funcionales que mejoran la experiencia del usuario.
       </p>
     </div>
   </section>
 
-
   <section id="projects" class="projects">
     <div class="container">
-      <h2>Projects</h2>
+      <h2>Proyectos</h2>
       <div class="project-list">
         <div class="project">
-          <h3>Project 1: </h3>
-          <p>A project created with HTML, CSS and JS.</p>
-          <a href="#" target="_blank">View</a>
+          <h3>Proyecto 1</h3>
+          <p>Un proyecto creado con HTML, CSS y JavaScript, enfocado en la interactividad y el rendimiento.</p>
+          <a href="#" target="_blank">Ver Proyecto</a>
         </div>
         <div class="project">
-          <h3>Project 2</h3>
-          <p>Project designed for a star up.</p>
-          <a href="#" target="_blank">View</a>
+          <h3>Proyecto 2</h3>
+          <p>Un proyecto de diseño web y UX/UI para una startup, centrado en la usabilidad y la identidad de marca.</p>
+          <a href="#" target="_blank">Ver Proyecto</a>
         </div>
-        <!-- Agregar más proyectos según sea necesario -->
-      </div>
+        </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
   <section id="contact" class="contact">
     <div class="container">
       <h2>Contacto</h2>
-      <p>You can write me <a id="green" href="mailto:email@example.com">email@example.com</a> or complete the form.</p>
+      <p>¿Tienes una idea o un proyecto en mente? ¡Conversemos! Puedes escribirme directamente a <a id="green" href="mailto:renzo.xavier@example.com">renzo.xavier@example.com</a> o completa el siguiente formulario.</p>
       <form class="contact-form">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required />
-
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required />
-
-        <label for="message">Mensagge</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <button type="submit">Send</button>
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Enviar Mensaje</button>
       </form>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <p id="footered">&copy; My portfolio 2025.</p>
+      <p id="footered">&copy; Portafolio de Renzo Xavier 2025.</p>
     </div>
   </footer>
+
 </body>
 </html>
