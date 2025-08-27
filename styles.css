@@ -40,7 +40,7 @@ header h1 {
   font-weight: 700;
 
   /* gradiente del texto */
-  background: linear-gradient(90deg, #b3c7e6, #8401ff, #3b82f6);
+  background: linear-gradient(90deg, #ff00cc, #ff66ff, #3b82f6);
   background-size: 200% 200%;
 
   /* versión estándar */
